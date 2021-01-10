@@ -1,0 +1,39 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'react-select',
+1 verbose cli   '@typer/react-select'
+1 verbose cli ]
+2 info using npm@6.14.9
+3 info using node@v14.15.3
+4 verbose npm-session 4f2fb212cf5c817c
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 404 https://registry.npmjs.org/@typer%2freact-select 1133ms
+8 http fetch GET 200 https://registry.npmjs.org/react-select 1299ms
+9 http fetch GET 404 https://registry.npmjs.org/@typer%2freact-select 966ms
+10 silly fetchPackageMetaData error for @typer/react-select@latest 404 Not Found - GET https://registry.npmjs.org/@typer%2freact-select - Not found
+11 http fetch GET 200 https://registry.npmjs.org/react-select/-/react-select-3.1.1.tgz 832ms
+12 silly pacote tag manifest for react-select@latest fetched in 2168ms
+13 timing stage:rollbackFailedOptional Completed in 0ms
+14 timing stage:runTopLevelLifecycles Completed in 3839ms
+15 verbose stack Error: 404 Not Found - GET https://registry.npmjs.org/@typer%2freact-select - Not found
+15 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-fetch\check-response.js:117:15
+15 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+16 verbose statusCode 404
+17 verbose pkgid @typer/react-select@latest
+18 verbose cwd C:\Users\Letícia\Desktop\Programming\ws-sds2\dsdeliver\front-web
+19 verbose Windows_NT 10.0.19042
+20 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "react-select" "@typer/react-select"
+21 verbose node v14.15.3
+22 verbose npm  v6.14.9
+23 error code E404
+24 error 404 Not Found - GET https://registry.npmjs.org/@typer%2freact-select - Not found
+25 error 404
+26 error 404 '@typer/react-select@latest' is not in the npm registry.
+27 error 404 You should bug the author to publish it (or use the name yourself!)
+28 error 404 Note that you can also install from a
+29 error 404 tarball, folder, http url, or git url.
+30 verbose exit [ 1, true ]
